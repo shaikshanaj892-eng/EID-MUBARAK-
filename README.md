@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eid Mubarak</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+    <div class="quote-container" id="quote-container">
+        <!-- Quote Element -->
+        <div class="quote-text">
+            <i class="fas fa-quote-left"></i>
+            <span id="quote">On this Eid, I wish you and your family a Happy, Healthy, and Safe Eid-Ul-Adha. May Allah(SWT) protect us all from this pandemic.</span>
+        </div>
+        <!-- Greeting Element -->
+        <div class="quote-greeting">
+            <span id="greeting">A very Happy Eid-Mubarak to you </span>
+        </div><br>
+        <!-- 5 buttons -->
+        <h4 style="text-align: left; font-size: large;">Hit the download icon to get the "Covid_19 Handbook" <br>You will find it Valuable.</h4>
+        <button id="download" class="btn btn-dwn" style="width:35%; font-size: 1.5rem; " onclick="ButtonClick()">
+            <i class="fa fa-download"></i>
+        </button><br><br>
+        <!-- <button class="btn"><i class="fa fa-download"></i> Download</button> -->
+        <!-- <button id="download" style="margin-top: 20px;">Download Handbook</button> -->
+        <h4 style="text-align: left; font-size: large;">Share among Family and Friends</h4>
+        <div class="button-container">        
+            <button class="twitter-button" id="twitter" title="Tweet This!">
+                <i class="fab fa-twitter"></i>
+            </button>
+
+             
+            <button class="whatsapp-button" id="whatsapp" title="WhatsApp This!">
+                <i class="fab fa-whatsapp"></i>
+            </button>                 
+        </div>
+        
+    </div>
+    <script src="script.js"> </script>
+        
+    
+</body>
+</html>
+ 
+<!-- onclick="windows.location.href= 'whatsapp://send?text=Text';" -->
+
+
+
+
+
+
+
+
+
+
